@@ -1,0 +1,838 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/*--공통CSS적용--*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*--서브1CSS적용--*/
+.sub{
+    background-image: url("image/인물3\ 수정.jpg");
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    margin-left: 0px;
+    z-index: 0;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box{
+    position: absolute;
+    background-color: white;
+    opacity: 50%;
+    width: 100%;
+    height: 1080px;
+    margin-top: 0px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.name1{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-top: 13px;
+    margin-left: 70px;
+    color: black;
+    width: 4%;
+    z-index: 2;
+}
+.name2{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 34px;
+    margin-left: 1350px;
+    color: black;
+    width: 4%;
+    z-index: 2;
+}
+.name3{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 34px;
+    margin-left: 1539px;
+    color: black;
+    width: 4%;
+    z-index: 2;
+}
+.name4{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 34px;
+    margin-left: 1737px;
+    color: black;
+    width: 4%;
+    z-index: 2;
+}
+.pro{
+    background-image: url("image/그룹\ 4.png");
+    position: absolute;
+    width: 644.91px;
+    height: 900.35px;
+    left: 70px;
+    top: 131.3px;
+    z-index: 2;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box2{
+    background-image: url("image/그룹\ 6.png");
+    position: absolute;
+    width: 585.62px;
+    height: 829.54px;
+    left: 1264.2px;
+    top: 201.78px;
+    z-index: 2;
+    margin: 0 auto;
+    background-size: cover;
+}
+.name5{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    margin-top: 216.8px;
+    margin-left: 1336.5px;
+    color: black;
+    width: 27%;
+    z-index: 2;
+}
+.name6{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 312.78px;
+    margin-left: 1340.5px;
+    color: black;
+    width: 27%;
+    z-index: 2;
+    letter-spacing: 19px;
+}
+.name7{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 370.78px;
+    margin-left: 1500.5px;
+    color: black;
+    width: 15%;
+    z-index: 2;
+    letter-spacing: -2px;
+}
+.name8{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 454.78px;
+    margin-left: 1252.5px;
+    color: black;
+    width: 28%;
+    z-index: 2;
+    letter-spacing: -2px;
+}
+.name9{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 762.78px;
+    margin-left: 1252.5px;
+    color: black;
+    width: 28%;
+    z-index: 2;
+    letter-spacing: -2px;
+}
+.box3{
+    background-image: url("image/TO\ 수정.jpg");
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    margin-left: 0px;
+    top: 1080px;
+    z-index: 0;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box4{
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    margin-left: 0px;
+    top: 1080px;
+    z-index: 1;
+    margin: 0 auto;
+    opacity: 50%;
+    background-size: cover;
+}
+.box5{
+    background-image: url("image/그룹\ 7.png");
+    position: absolute;
+    width: 1780px;
+    height: 928px;
+    left: 70px;
+    top: 1165px;
+    z-index: 2;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box6{
+    background-image: url("image/인물2\ 수정.jpg");
+    position: absolute;
+    width: 598px;
+    height: 772px;
+    margin-left: 0px;
+    top: 1243px;
+    left: 204px;
+    z-index: 2;
+    margin: 0 auto;
+    background-size: cover;
+}
+.name10{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 53px;
+    font-weight: 300;
+    margin-top: 146px;
+    margin-left: 933px;
+    color: white;
+    width: 28%;
+    z-index: 2;
+}
+.name11{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 177px;
+    margin-left: 1397px;
+    color: white;
+    width: 10%;
+    z-index: 2;
+}
+.name12{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 224px;
+    margin-left: 933px;
+    color: white;
+    width: 28%;
+    z-index: 2;
+}
+.name13{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 333px;
+    margin-left: 933px;
+    color: white;
+    width: 43%;
+    z-index: 2;
+    letter-spacing: 0px;
+}
+.name14{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 34px;
+    margin-left: 1350px;
+    color: black;
+    width: 4%;
+    z-index: 2;
+}
+.name15{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 34px;
+    margin-left: 1539px;
+    color: black;
+    width: 4%;
+    z-index: 2;
+}.box7{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 2640px;
+    margin-left: 0px;
+    z-index: 0;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box8{
+    background-image: url("image/그룹\ 8.png");
+    position: absolute;
+    width: 352.46px;
+    height: 2343.01px;
+    margin-left: 0px;
+    top: 132px;
+    left: 70px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.name16{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 151.6px;
+    margin-left: 70px;
+    color: black;
+    width: 10%;
+    z-index: 2;
+}
+.box9_1{
+    background-image: url("image/TO수정2.jpg");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 340px;
+    left: 183px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_2{
+    background-image: url("image/A\ Light\ with\ a\ Dish수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 340px;
+    left: 608px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_3{
+    background-image: url("image/Tou\ Club\ armchair수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 340px;
+    left: 1033px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_4{
+    background-image: url("image/Umbrella\ for\ Life수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 340px;
+    left: 1418px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.name17_1{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 748px;
+    margin-left: 183px;
+    color: black;
+    width: 10%;
+    z-index: 2;
+}
+.name17_2{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 748px;
+    margin-left: 608px;
+    color: black;
+    width: 15%;
+    z-index: 2;
+}
+.name17_3{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 748px;
+    margin-left: 1033px;
+    color: black;
+    width: 15%;
+    z-index: 2;
+}
+.name17_4{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 748px;
+    margin-left: 1418px;
+    color: black;
+    width: 10%;
+    z-index: 2;
+}
+.box9_5{
+    background-image: url("image/Wall\ Clock수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 847px;
+    left: 183px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_6{
+    background-image: url("image/Wall\ mounted\ CD\ Player수정.jpg");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 847px;
+    left: 608px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_7{
+    background-image: url("image/Za수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 847px;
+    left: 1033px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_8{
+    background-image: url("image/ELLIPSE수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 847px;
+    left: 1418px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.name17_5{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 1255px;
+    margin-left: 183px;
+    color: black;
+    width: 10%;
+    z-index: 2;
+}
+.name17_6{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 1255px;
+    margin-left: 608px;
+    color: black;
+    width: 15%;
+    z-index: 2;
+}
+.name17_7{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 1255px;
+    margin-left: 1033px;
+    color: black;
+    width: 15%;
+    z-index: 2;
+}
+.name17_8{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 1255px;
+    margin-left: 1418px;
+    color: black;
+    width: 10%;
+    z-index: 2;
+}
+.box9_9{
+    background-image: url("image/team-demi\ 수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 1354px;
+    left: 183px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_10{
+    background-image: url("image/Arm\ Light수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 1354px;
+    left: 608px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_11{
+    background-image: url("image/Digital\ Clock수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 1354px;
+    left: 1033px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_12{
+    background-image: url("image/Nicia수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 1354px;
+    left: 1418px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.name17_9{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 1762px;
+    margin-left: 183px;
+    color: black;
+    width: 10%;
+    z-index: 2;
+}
+.name17_10{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 1762px;
+    margin-left: 608px;
+    color: black;
+    width: 15%;
+    z-index: 2;
+}
+.name17_11{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 1762px;
+    margin-left: 1033px;
+    color: black;
+    width: 15%;
+    z-index: 2;
+}
+.name17_12{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 1762px;
+    margin-left: 1418px;
+    color: black;
+    width: 10%;
+    z-index: 2;
+}
+.box9_13{
+    background-image: url("image/Grande\ Papilio수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 1861px;
+    left: 183px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_14{
+    background-image: url("image/Nomu\ –\ Thermo\ Insulated\ Jug수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 1861px;
+    left: 608px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_15{
+    background-image: url("image/Multi\ Xpress7\,\ Multi-function\ Color\ Printer수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 1861px;
+    left: 1033px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box9_16{
+    background-image: url("image/N_Bag수정.JPG");
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    margin-left: 0px;
+    top: 1861px;
+    left: 1418px;
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+}
+.name17_13{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 2269px;
+    margin-left: 183px;
+    color: black;
+    width: 10%;
+    z-index: 2;
+}
+.name17_14{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 2269px;
+    margin-left: 608px;
+    color: black;
+    width: 15%;
+    z-index: 2;
+}
+.name17_15{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 2269px;
+    margin-left: 1033px;
+    color: black;
+    width: 15%;
+    z-index: 2;
+}
+.name17_16{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 2269px;
+    margin-left: 1418px;
+    color: black;
+    width: 10%;
+    z-index: 2;
+}
+.name18{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-top: 13px;
+    margin-left: 70px;
+    color: white;
+    width: 4%;
+    z-index: 2;
+}
+.name19{
+   position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 34px;
+    margin-left: 1350px;
+    color: white;
+    width: 4%;
+    z-index: 2;
+}
+.name20{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 34px;
+    margin-left: 1539px;
+    color: white;
+    width: 4%;
+    z-index: 2;
+}
+.name21{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 34px;
+    margin-left: 1737px;
+    color: white;
+    width: 4%;
+    z-index: 2;
+}
+.box10{
+    background-image: url("image/Wall\ mounted\ CD\ Player수정2.jpg");
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    margin-left: 0px;
+    z-index: 0;
+    margin: 0 auto;
+    background-size: cover;
+}
+.box11{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    margin-left: 0px;
+    z-index: 1;
+    margin: 0 auto;
+    opacity: 50%;
+    background-size: cover;
+}
+.box12{
+    background-image: url("image/10.png");
+    position: absolute;
+    width: 895.04px;
+    height: 898px;
+    left: 70px;
+    top: 132px;
+    z-index: 2;
+    margin: 0 auto;
+    background-size: cover;
+    width: 47.2%;
+}
+.name22{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 163px;
+    margin-left: 150px;
+    color: white;
+    width: 15%;
+    z-index: 2;
+}
+.name23{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 355px;
+    margin-left: 150px;
+    color: white;
+    width: 30%;
+    z-index: 2;
+}
+.name24{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 404px;
+    margin-left: 150px;
+    color: white;
+    width: 50%;
+    z-index: 2;
+    letter-spacing: -2px;
+}
+.name25{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 34px;
+    margin-top: 505px;
+    margin-left: 150px;
+    color: white;
+    width: 50%;
+    z-index: 2;
+    
+}
+.name26{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 34px;
+    margin-top: 619px;
+    margin-left: 150px;
+    color: white;
+    width: 50%;
+    z-index: 2;
+    letter-spacing: -2px;
+}
+.name27{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 34px;
+    margin-top: 786px;
+    margin-left: 150px;
+    color: white;
+    width: 50%;
+    z-index: 2;
+}
+.name28{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 34px;
+    margin-top: 867px;
+    margin-left: 150px;
+    color: white;
+    width: 50%;
+    z-index: 2;
+    letter-spacing: -2px;
+}
